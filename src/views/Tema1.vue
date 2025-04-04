@@ -10,7 +10,7 @@
     .row.mb-5
       .col-lg-1.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/1.svg", data-aos="zoom-in")
+          img.d-none.d-lg-flex(src="@/assets/curso/tema1/1.svg", data-aos="zoom-in")
       .col-lg-11
         p.mb-0 El objetivo del presente componente es el análisis de la fundamentación y aplicación de las matemáticas financieras; para lo cual se fortalecerán las habilidades y competencias en el manejo y aplicación de tasas de interés, tablas de amortización, herramientas de Excel y criterios del valor razonable. Logrando de esta manera adquirir destrezas en el área contable y financiera para su desempeño en el ámbito empresarial. 
     
@@ -28,7 +28,7 @@
     
         .bg-color-15.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/3.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 De acuerdo con la convergencia de Normas Internacionales de Información Financiera, mediante la expedición de la Ley 1314 de 2009, se presentan cambios en la valoración de los instrumentos financieros, donde se tiene en cuenta los criterios de medición de costo amortizado y valor razonable, utilizando el método de interés efectivo.
@@ -99,7 +99,7 @@
           img(src="@/assets/curso/tema1/10.svg", data-aos="zoom-in")
       .col-lg-7
         .row.align-items-start.mb-3
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
             p <b>Ejemplo 1:</b> Carolina invierte hoy $12.000.000 en una cuenta que paga el 9% simple anual, ¿qué cantidad podrá retirar dentro de 3 años?
@@ -119,7 +119,7 @@
           img(src="@/assets/curso/tema1/13.png", data-aos="zoom-in")
       .col-lg-7
         .row.align-items-start.mb-3
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
             p <b>Ejemplo 2:</b> Andrés recibirá en 10 meses $35.000.000, correspondientes a una inversión realizada. Si la tasa de interés que le están pagando es del 2,5% mensual, ¿Cuál es el valor inicial de la inversión, aplicando el tipo de interés simple?
@@ -146,7 +146,7 @@
           img(src="@/assets/curso/tema1/17.png", data-aos="zoom-in")
       .col-lg-7.order-lg-1
         .row.align-items-start.mb-3
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
             p <b>Ejemplo 1:</b> Carolina invierte hoy $12.000.000 en una cuenta que paga el 9% compuesto anual, ¿qué cantidad podrá retirar dentro de 3 años?
@@ -163,14 +163,14 @@
 
     div.tarjeta.bg-color-8.p-4.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-6
+        .col-lg-6.mb-3.mb-lg-0
           .titulo-sexto.color-acento-contenido
             h5 Figura 1.
             span Cálculo del valor futuro (VF) en función financiera de Exce
           figure
             img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", alt=" Ventana de argumentos de función en Excel para calcular el valor futuro (VF) de una inversión, con campos para ingresar tasa de interés, número de periodos (Nper), pago periódico, valor actual (Va) y tipo de vencimiento. Incluye una breve descripción de cada parámetro.")
           
-        .col-lg-6
+        .col-lg-6.mb-3.mb-lg-0
           p <b>VF(tasa;nper;pago;(va);tipo),</b> teniendo en cuenta que:
           ul.lista-ul--color.mb-5
             li.mb-3.d-flex
@@ -196,7 +196,7 @@
           img(src="@/assets/curso/tema1/20.svg", data-aos="zoom-in")
       .col-lg-7.order-lg-1
         .row.align-items-start.mb-3
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
             p <b>Ejemplo 2:</b> Andrés recibirá en 10 meses $35.000.000, correspondientes a una inversión realizada. Si la tasa de interés que le están pagando es del 2,5% mensual, ¿Cuál es el valor inicial de la inversión, aplicando el tipo de interés compuesto? 
@@ -213,14 +213,14 @@
 
     div.tarjeta.bg-color-1.p-4.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-6
+        .col-lg-6.mb-3.mb-lg-0
           .titulo-sexto.color-acento-contenido
             h5 Figura 2.
             span  Cálculo del valor actual (VA) en función financiera de Excel
           figure
             img(src="@/assets/curso/tema1/21.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular el valor actual (VA) de una inversión, con campos para ingresar tasa, número de periodos (Nper), pago periódico, valor futuro (Vf) y tipo de vencimiento")
           
-        .col-lg-6
+        .col-lg-6.mb-3.mb-lg-0
           p <b>VA(tasa;nper;pago;(vf);tipo),</b> teniendo en cuenta que:
           ul.lista-ul--color.mb-5
             li.mb-3.d-flex
@@ -245,7 +245,7 @@
           img(src="@/assets/curso/tema1/23.svg", data-aos="zoom-in")
       .col-lg-7.order-lg-1
         .row.align-items-start.mb-3
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
             p <b>Ejemplo 3:</b> María realiza una inversión por valor de $ 750.000, por un periodo de 3 años. Al finalizar el tiempo le entregan $ 868.219. ¿Cuál es la tasa de interés compuesto aplicada? Una vez despejada la fórmula principal, se utilizará la siguiente: 
@@ -258,14 +258,14 @@
     
     div.tarjeta.bg-color-10.p-4.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-6
+        .col-lg-6.mb-3.mb-lg-0
           .titulo-sexto.color-acento-contenido
             h5 Figura 3.
             span  Cálculo de la tasa de interés en función financiera de Excel
           figure
             img(src="@/assets/curso/tema1/24.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular la tasa de interés por periodo de un préstamo o inversión, con campos para ingresar número de periodos (Nper), pago periódico, valor actual (Va), valor futuro (Vf) y tipo de vencimiento.)")
           
-        .col-lg-6
+        .col-lg-6.mb-3.mb-lg-0
           p <b>Tasa(nper;pago;va;(vf);tipo),</b> teniendo en cuenta que:
           ul.lista-ul--color.mb-5
             li.mb-3.d-flex
@@ -290,7 +290,7 @@
           img(src="@/assets/curso/tema1/26.png", data-aos="zoom-in")
       .col-lg-7.order-lg-1
         .row.align-items-start.mb-3
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
             p <b>Ejemplo 4:</b> Sofía realiza un préstamo de $2.000.000, Al final del período paga $3.443.143, la tasa cobrada es del 2,5% mensual. Hallar el tiempo del préstamo.  Teniendo en cuenta la fórmula principal, se realiza el proceso para despejarla; por ende, se utilizará la siguiente:
@@ -303,14 +303,14 @@
 
     div.tarjeta.bg-color-16.p-4.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-6
+        .col-lg-6.mb-3.mb-lg-0
           .titulo-sexto.color-acento-contenido
             h5 Figura 4.
             span Cálculo del número de periodos (Nper) en función financiera de Excel
           figure
             img(src="@/assets/curso/tema1/27.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular el número de pagos de una inversión, con campos para ingresar tasa de interés, pago periódico, valor actual (Va), valor futuro (Vf) y tipo de vencimiento.")
           
-        .col-lg-6
+        .col-lg-6.mb-3.mb-lg-0
           p <b>Nper(nper;pago;va;(vf);tipo),</b> teniendo en cuenta que:
           ul.lista-ul--color.mb-5
             li.mb-3.d-flex
@@ -358,7 +358,7 @@
         .row.justify-content-center.mb-5
           .col-lg-10
             .row.justify-content-center.align-items-center
-              .col-lg-auto.order-2.ps-0
+              .col-lg-auto.mb-3.mb-lg-0.order-2.ps-0
                 figure
                   img(src='@/assets/curso/tema1/29.svg', alt='')
               .col-lg.order-1.mb-3.mb-lg-0.align-content-center.pe-0
@@ -447,7 +447,7 @@
         h3.titulo-con-imagen__texto Fórmulas
       
     .row
-      .col-md-8.mb-5.mb-md-0
+      .col-lg-8.mb-5.mb-lg-0
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-secundario
@@ -569,7 +569,7 @@
           img(src="@/assets/curso/tema1/38.png", data-aos="zoom-in")
       .col-lg-7.order-lg-1
         .row.align-items-start.mb-3
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
             p <b>Ejemplo 1:</b>  la siguiente tabla de amortización presenta el método francés, donde se establece la cuota fija en el periodo de pago acordado1
@@ -688,7 +688,7 @@
                     span 1
                   | El valor de la cuota fija se calcula aplicando la siguiente fórmula:
                 .row.justify-content-center.mb-3
-                  .col-lg-6
+                  .col-lg-6.mb-3.mb-lg-0
                     figure
                       img(src="@/assets/curso/tema1/41.svg")
                 li.d-flex 
@@ -705,10 +705,10 @@
                   | El saldo se obtiene restando el saldo anterior, menos el valor de la amortización.
 
           .row.align-items-center.p-4.p-md-5
-            .col-lg-6.order-2
+            .col-lg-6.mb-3.mb-lg-0.order-2
               figure
                 img(src="@/assets/curso/tema1/42.png", alt="Ventana de Excel para ingresar argumentos de la función financiera PAGO, que incluye campos para Tasa, Nper, Va, Vt y Tipo, con una descripción sobre el cálculo del pago de un préstamo con tasa de interés constante.")
-            .col-lg-6.order-1.mb-3.mb-lg-0
+            .col-lg-6.mb-3.mb-lg-0.order-1.mb-3.mb-lg-0
               p Así mismo, se puede obtener el valor de la cuota fija, utilizando la fórmula financiera de Excel llamada PAGO, la cual se presenta a continuación:
               p <b>PAGO(tasa;nper;va;vf,tipo),</b> teniendo en cuenta que:
               ul.lista-ul--color.mb-5
@@ -729,13 +729,13 @@
                   p.mb-0 <b>Tipo:</b> es un valor lógico. Se registra “0” para una tasa vencida y “1” para tasa anticipada.
     
     .row.align-items-start.mb-3
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
       .col-lg
         p <b>Ejemplo 2:</b>  Teniendo en cuenta la información del ejercicio anterior, se supone un periodo de gracia de 2 meses.
 
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido
             h5 Tabla 4.
             span Condiciones del préstamo con período de gracia
@@ -838,7 +838,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.justify-content-center
-          .col-lg-auto.order-2.ps-0
+          .col-lg-auto.mb-3.mb-lg-0.order-2.ps-0
             figure
               img(src='@/assets/curso/tema1/43.svg', alt='')
           .col-lg.order-1.mb-3.mb-lg-0.pe-0
@@ -859,13 +859,13 @@
                   | Finalmente, se procede a elaborar la tabla, teniendo en cuenta el procedimiento realizado en la tabla de amortización de cuota fija. 
     
     .row.align-items-start.mb-3
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
       .col-lg
         p <b>Ejemplo 3:</b>  continuamos con el ejercicio anterior, se presenta un abono a capital.
 
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido
             h5 Tabla 6.
             span Condiciones del préstamo con abono extraordinario en el mes 3
@@ -971,7 +971,7 @@
     .row.justify-content-center
       .col-lg-10
         .row.justify-content-center
-          .col-lg-auto.order-2.ps-0
+          .col-lg-auto.mb-3.mb-lg-0.order-2.ps-0
             figure
               img(src='@/assets/curso/tema1/44.svg', alt='')
           .col-lg.order-1.mb-3.mb-lg-0.pe-0
@@ -1008,10 +1008,10 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
             h3.titulo-con-imagen__texto Valor presente neto (VPN) 
         .row.mb-5
-          .col-lg-5.order-2
+          .col-lg-5.order-lg-2.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/45.png", data-aos="zoom-in")
-          .col-lg-7.order-1.mb-3.mb-lg-0
+          .col-lg-7.order-lg-1
             .bloque-texto-b.color-secundario.p-4.mb-3
               .bloque-texto-b__texto.mb-2
                 i.fas.fa-quote-left
@@ -1026,11 +1026,11 @@
                 figure
                   img(src="@/assets/curso/tema1/45-1.svg", data-aos="zoom-in")
             .row
-              .col-lg-6
+              .col-lg-6.mb-3.mb-lg-0
                 p.mb-0 P: Inversión inicial
                 p.mb-0 FNE: Flujos netos de efectivo
                 p TO: Tasa de oportunidad del inversionista.
-              .col-lg-6
+              .col-lg-6.mb-3.mb-lg-0
                 p.mb-0 Interpretación:
                 p.mb-0 VPN < cero “0” = No es viable (pérdida)
                 p.mb-0 VPN > cero “0”  = Es viable (Ganancia)
@@ -1042,7 +1042,7 @@
               img(src="@/assets/curso/tema1/46.svg", data-aos="zoom-in")
           .col-lg-7
             .row.align-items-start.mb-3
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p <b>Ejemplo:</b>  Se desea realizar una inversión de $12.000.000, durante 4 años, a una tasa de descuento del 15% anual. Los beneficios (flujos) recibidos por cada año son los siguientes:
@@ -1087,14 +1087,14 @@
 
         div.tarjeta.bg-color-16.p-4.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-6
+            .col-lg-6.mb-3.mb-lg-0
               .titulo-sexto.color-acento-contenido
                 h5 Figura 5.
                 span Ventana de argumentos de la función VNA en Excel
               figure
                 img(src="@/assets/curso/tema1/47.png", data-aos="zoom-in", alt="Ventana de Excel para ingresar argumentos de la función financiera VNA, con campos para Tasa, Valor1 y Valor2. Incluye una descripción sobre el cálculo del valor neto presente de una inversión y botones para aceptar o cancelar.")
               
-            .col-lg-6
+            .col-lg-6.mb-3.mb-lg-0
               p <b>VNA(tasa;valor1;valor2;…),</b> teniendo en cuenta que:
               ul.lista-ul--color.mb-5
                 li.mb-3.d-flex
@@ -1132,7 +1132,7 @@
         p.mb-0 Tasa de descuento = TIR = Indiferente 
 
     .row.align-items-start.mb-3
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
       .col-lg
         p <b>Ejemplo:</b>  Iván Méndez desea realizar una inversión de $20.000.000, el proyecto le ofrece los siguientes beneficios durante 6 años, de igual forma genera los presentes gastos:
@@ -1227,10 +1227,10 @@
               
 
           .row.align-items-center.p-4.p-md-5
-            .col-lg-6.order-2
+            .col-lg-6.mb-3.mb-lg-0.order-2
               figure
                 img(src="@/assets/curso/tema1/51.png", alt=" Ventana de Excel para ingresar argumentos de la función financiera TIR, con campos para Valores y Estimar. Incluye una serie de flujos de efectivo y muestra el resultado calculado de la tasa interna de retorno, junto con botones para aceptar o cancelar.")
-            .col-lg-6.order-1.mb-3.mb-lg-0
+            .col-lg-6.mb-3.mb-lg-0.order-1.mb-3.mb-lg-0
               h5 <b>TIR (valores;estimar),</b> teniendo en cuenta que:
               ul.lista-ul--color.mb-5
                 li.mb-3.d-flex
@@ -1244,14 +1244,14 @@
  
 
     .row
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         div.tarjeta.bg-color-8.p-4.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-6
+            .col-lg-6.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/52.svg", data-aos="zoom-in")
               
-            .col-lg-6
+            .col-lg-6.mb-3.mb-lg-0
               p Respuesta:
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 10.
@@ -1270,7 +1270,7 @@
                     tr.bg-color-18
                       td.text-center.text-bold  TIR   
                       td.text-center.text-bold 18 %
-      .col-lg-6
+      .col-lg-6.mb-3.mb-lg-0
         P.mb-5 De acuerdo con lo anterior, se observa que el proyecto es viable, teniendo en cuenta que se recupera la inversión, además de generar una ganancia.  La TIR (184%) es mayor que la tasa de descuento (14%).
         P.mb-5 (P28) Para ampliar esta información, usted deberá ingresar a la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo.  A continuación se relaciona el enlace sugerido para fortalecer la temática propuesta:
         a.anexo.mb-4.mb-lg-0(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/130247?page=279" target="_blank")
@@ -1438,10 +1438,10 @@
     p.mb-4 En el contexto tributario colombiano, los impuestos se encuentran clasificados en nacionales, departamental y municipal; por ende, es importante tener en cuenta el sujeto activo que se encuentra delegado para administrar, controlar y recaudar cada uno de los impuestos, además de analizar la normativa que aplica para cada uno de estos.
 
     .row.mb-5
-      .col-lg-6.order-2
+      .col-lg-6.mb-3.mb-lg-0.order-2
         figure
           img(src="@/assets/curso/tema1/10.svg", data-aos="zoom-in")
-      .col-lg-6.order-1.mb-3.mb-lg-0
+      .col-lg-6.mb-3.mb-lg-0.order-1.mb-3.mb-lg-0
         h3.bg-color-4.tarjeta.p-3 Impuestos nacionales
         p(data-aos="fade-left") Son impuestos administrados por la nación, siendo esta su ámbito de aplicación. Son emitidos por el poder ejecutivo y sancionados por el presidente de la república una vez hayan sido aprobados por el congreso.
         h5.mb-5 Entre los impuestos nacionales encontramos, principalmente:

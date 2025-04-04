@@ -23,7 +23,7 @@
           img(src="@/assets/curso/intro/2.svg", data-aos="zoom-in")
       .col-lg-9
         .row.align-items-start.mb-3
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/intro/3.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Se profundiza en la Norma Internacional de Información Financiera (NIIF) 13 – Medición del Valor Razonable, teniendo en cuenta la importancia de su análisis y aplicación en el registro de los hechos económicos bajo los estánda

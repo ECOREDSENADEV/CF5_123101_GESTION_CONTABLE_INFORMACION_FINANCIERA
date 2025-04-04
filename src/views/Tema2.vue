@@ -15,10 +15,10 @@
             h3.titulo-con-imagen__texto OBJETIVO
         
         .row.mb-5
-          .col-lg-5.order-2
+          .col-lg-5.order-lg-2.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in")
-          .col-lg-7.order-1.mb-3.mb-lg-0(data-aos="fade-left")
+          .col-lg-7.order-lg-1(data-aos="fade-left")
             ol.lista-ol--cuadro.ms-4
               li.d-flex.mb-3 
                 .lista-ol--cuadro__vineta
@@ -50,10 +50,10 @@
             h3.titulo-con-imagen__texto ALCANCE
         
         .row.mb-5
-          .col-lg-5.order-2
+          .col-lg-5.order-lg-2.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema2/3.png", data-aos="zoom-in")
-          .col-lg-7.order-1.mb-3.mb-lg-0(data-aos="fade-left")
+          .col-lg-7.order-lg-1(data-aos="fade-left")
             ol.lista-ol--cuadro.ms-4
               li.d-flex.mb-3 
                 .lista-ol--cuadro__vineta
@@ -96,11 +96,11 @@
       .col-lg-10
         div.tarjeta.bg-color-16.p-4.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-6.mb-3.mb-lg-0
+            .col-lg-6.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema2/6.svg", data-aos="zoom-in")
               
-            .col-lg-6
+            .col-lg-6.mb-3.mb-lg-0
               h5 Medición Inicial: 11 de noviembre de 2020
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 11.
@@ -153,11 +153,11 @@
       .col-lg-10
         div.tarjeta.bg-color-8.p-4.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-6.order-lg-2.mb-3.mb-lg-0
+            .col-lg-6.mb-3.mb-lg-0.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema2/7.svg", data-aos="zoom-in")
               
-            .col-lg-6.order-lg-1.mb-3.mb-lg-0
+            .col-lg-6.mb-3.mb-lg-0.order-lg-1.mb-3.mb-lg-0
               h5 Medición posterior: 31 de diciembre de 2020
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 13.
@@ -209,7 +209,7 @@
                       td.text-center $ 300.000
     
     .row.justify-content-center
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/8.svg", data-aos="zoom-in")
               
@@ -284,7 +284,7 @@
           .col-lg-4.order-2.ps-lg-0
             figure
               img(src="@/assets/curso/tema2/4.svg", data-aos="zoom-in")
-          .col-lg-6.order-1.mb-3.mb-lg-0.pe-lg-0
+          .col-lg-6.mb-3.mb-lg-0.order-1.mb-3.mb-lg-0.pe-lg-0
             div.bg-color-9.p-5.mb-5(data-aos="fade-right")
               h5 Algunos de los contribuyentes de este régimen son: 
               ul.lista-ul--color.mb-0
@@ -322,7 +322,7 @@
           .col-lg-4.order-2.ps-lg-0
             figure
               img(src="@/assets/curso/tema2/5.svg", data-aos="zoom-in")
-          .col-lg-6.order-1.mb-3.mb-lg-0.pe-lg-0
+          .col-lg-6.mb-3.mb-lg-0.order-1.mb-3.mb-lg-0.pe-lg-0
             div.bg-color-9.p-5.mb-5(data-aos="fade-right")
               h5.mb-5.mt-3 Dentro de esta clasificación encontramos: 
               p Todas las asociaciones, fundaciones y corporaciones constituidas como entidades sin ánimo de lucro.
@@ -332,7 +332,7 @@
       .col-lg-4.order-2.ps-lg-0
         figure
           img(src="@/assets/curso/tema2/6.svg", data-aos="zoom-in")
-      .col-lg-6.order-1.mb-3.mb-lg-0.pe-lg-0
+      .col-lg-6.mb-3.mb-lg-0.order-1.mb-3.mb-lg-0.pe-lg-0
         div.bg-color-9.p-5.mb-5(data-aos="fade-right")
           h5.mb-3 Algunos de los contribuyentes de este régimen son: 
           ol.lista-ol--cuadro
