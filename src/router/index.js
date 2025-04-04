@@ -42,24 +42,6 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema2" */ '../views/Tema2.vue'),
         },
-        {
-          path: 'tema3',
-          name: 'tema3',
-          component: () =>
-            import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
-        },
-        {
-          path: 'tema4',
-          name: 'tema4',
-          component: () =>
-            import(/* webpackChunkName: "tema4" */ '../views/Tema4.vue'),
-        },
-        {
-          path: 'tema5',
-          name: 'tema5',
-          component: () =>
-            import(/* webpackChunkName: "tema5" */ '../views/Tema5.vue'),
-        },
       ],
     },
     {
