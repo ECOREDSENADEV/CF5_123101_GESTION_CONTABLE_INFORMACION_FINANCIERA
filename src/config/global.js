@@ -36,13 +36,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Matemáticas financieras',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'concepto.',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Tasas de interés.',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Tasa nominal, periódica y efectiva.',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Tablas de amortización.',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Alternativas de inversión.',
+            hash: 't_1_5',
           },
         ],
       },
@@ -50,7 +70,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Norma Internacional de Información Financiera (NIIF)',
         desarrolloContenidos: true,
       },
     ],

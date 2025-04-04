@@ -168,7 +168,7 @@
             h5 Figura 1.
             span Cálculo del valor futuro (VF) en función financiera de Exce
           figure
-            img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", alt=" Ventana de argumentos de función en Excel para calcular el valor futuro (VF) de una inversión, con campos para ingresar tasa de interés, número de periodos (Nper), pago periódico, valor actual (Va) y tipo de vencimiento. Incluye una breve descripción de cada parámetro.")
           
         .col-lg-6
           p <b>VF(tasa;nper;pago;(va);tipo),</b> teniendo en cuenta que:
@@ -218,7 +218,7 @@
             h5 Figura 2.
             span  Cálculo del valor actual (VA) en función financiera de Excel
           figure
-            img(src="@/assets/curso/tema1/21.png", data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/21.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular el valor actual (VA) de una inversión, con campos para ingresar tasa, número de periodos (Nper), pago periódico, valor futuro (Vf) y tipo de vencimiento")
           
         .col-lg-6
           p <b>VA(tasa;nper;pago;(vf);tipo),</b> teniendo en cuenta que:
@@ -263,7 +263,7 @@
             h5 Figura 3.
             span  Cálculo de la tasa de interés en función financiera de Excel
           figure
-            img(src="@/assets/curso/tema1/24.png", data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/24.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular la tasa de interés por periodo de un préstamo o inversión, con campos para ingresar número de periodos (Nper), pago periódico, valor actual (Va), valor futuro (Vf) y tipo de vencimiento.)")
           
         .col-lg-6
           p <b>Tasa(nper;pago;va;(vf);tipo),</b> teniendo en cuenta que:
@@ -308,7 +308,7 @@
             h5 Figura 4.
             span Cálculo del número de periodos (Nper) en función financiera de Excel
           figure
-            img(src="@/assets/curso/tema1/27.png", data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/27.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular el número de pagos de una inversión, con campos para ingresar tasa de interés, pago periódico, valor actual (Va), valor futuro (Vf) y tipo de vencimiento.")
           
         .col-lg-6
           p <b>Nper(nper;pago;va;(vf);tipo),</b> teniendo en cuenta que:
@@ -435,7 +435,7 @@
     
         .cajon.color-secundario.bg-color-1.p-4.mb-4
           p.mb-0 Para profundizar en la temática, recuerde explorar en la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo. A continuación se relaciona el libro Matemáticas Financieras, que fue utilizado para la definición de los conceptos anteriormente expuestos, para su revisión:
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=3788" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -679,7 +679,7 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
-                img(src="@/assets/curso/tema1/40.png")
+                img(src="@/assets/curso/tema1/40.png", alt="")
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4 Procedimiento
               ol.lista-ol--cuadro.ms-4
@@ -707,7 +707,7 @@
           .row.align-items-center.p-4.p-md-5
             .col-lg-6.order-2
               figure
-                img(src="@/assets/curso/tema1/42.png")
+                img(src="@/assets/curso/tema1/42.png", alt="Ventana de Excel para ingresar argumentos de la función financiera PAGO, que incluye campos para Tasa, Nper, Va, Vt y Tipo, con una descripción sobre el cálculo del pago de un préstamo con tasa de interés constante.")
             .col-lg-6.order-1.mb-3.mb-lg-0
               p Así mismo, se puede obtener el valor de la cuota fija, utilizando la fórmula financiera de Excel llamada PAGO, la cual se presenta a continuación:
               p <b>PAGO(tasa;nper;va;vf,tipo),</b> teniendo en cuenta que:
@@ -1092,7 +1092,7 @@
                 h5 Figura 5.
                 span Ventana de argumentos de la función VNA en Excel
               figure
-                img(src="@/assets/curso/tema1/47.png", data-aos="zoom-in")
+                img(src="@/assets/curso/tema1/47.png", data-aos="zoom-in", alt="Ventana de Excel para ingresar argumentos de la función financiera VNA, con campos para Tasa, Valor1 y Valor2. Incluye una descripción sobre el cálculo del valor neto presente de una inversión y botones para aceptar o cancelar.")
               
             .col-lg-6
               p <b>VNA(tasa;valor1;valor2;…),</b> teniendo en cuenta que:
@@ -1273,7 +1273,7 @@
       .col-lg-6
         P.mb-5 De acuerdo con lo anterior, se observa que el proyecto es viable, teniendo en cuenta que se recupera la inversión, además de generar una ganancia.  La TIR (184%) es mayor que la tasa de descuento (14%).
         P.mb-5 (P28) Para ampliar esta información, usted deberá ingresar a la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo.  A continuación se relaciona el enlace sugerido para fortalecer la temática propuesta:
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/130247?page=279" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
