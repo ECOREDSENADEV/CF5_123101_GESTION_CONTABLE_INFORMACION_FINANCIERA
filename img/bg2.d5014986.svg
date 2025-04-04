@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="622.236" viewBox="0 0 1328 622.236">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#eaf5fe"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1111371" data-name="Grupo 1111371" transform="translate(0 76.768)">
+    <path id="Unión_5" data-name="Unión 5" d="M.488,0V247.629c-.164.253-.326.5-.488.758V453.17c56.9,64.808,174.226,85.265,283.293,82.883,87.2-1.9,169.938-20.1,244.233-45.742,65.7-22.677,125.763-51.222,193.69-71.418,167.75-49.88,355.816-4.8,523.1,45.284,27.263,8.162,54.639,16.281,82.094,24.155v-210.8h1.184V0Z" transform="translate(0.003 9.233)" fill="#f5fbff"/>
+    <path id="Unión_6" data-name="Unión 6" d="M1049.135,0C941.623,0,837.2,28.478,734.984,58.025,634.721,87.009,522,113.1,421.46,84.232,380.746,72.544,344.75,56.024,305.369,42.9c-44.53-14.839-94.119-25.37-146.384-26.472C99.9,15.181,36.777,24.734,0,54.273v423.8H1327.594V192.37h-1.184V94.052c-33.733-45.73-112.394-75.574-193.034-87.836A558.96,558.96,0,0,0,1049.148,0Z" transform="translate(1327.594 478.071) rotate(180)" fill="#eaf5fe"/>
+    <rect id="Rectángulo_404581" data-name="Rectángulo 404581" width="1328" height="204" transform="translate(0 -76.768)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
